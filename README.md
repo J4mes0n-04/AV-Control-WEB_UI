@@ -9,8 +9,9 @@
 | `src_req/` | Исходные требования и разбиение по capabilities (до OpenSpec) |
 | `code/` | Реализация WEB UI (пока пусто) |
 | `Консолидированный пакет/` | Авторитетные продуктовые документы (PRD, PSD, Scope, …) |
+| `openspec/` | Vendored-клон [OpenSpec](https://github.com/Fission-AI/OpenSpec): CLI, схемы, skills |
 
-Планирование изменений — OpenSpec (`openspec init` в корне продукта). Локальный клон CLI [OpenSpec](https://github.com/Fission-AI/OpenSpec) при необходимости держите отдельно; каталог `openspec/` в рабочей копии в этот репозиторий не входит.
+Артефакты планирования **продукта** AV Control (`openspec init`) не кладут в этот каталог — инициализируйте отдельный путь, например `planning/` (`openspec init planning --tools cursor`). Черновик `config.yaml` — `src_req/openspec-config.yaml`.
 
 ## Методология
 

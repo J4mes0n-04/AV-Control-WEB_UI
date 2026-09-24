@@ -1,6 +1,3 @@
-# Локальный клон исходников OpenSpec CLI — не часть продукта WEB UI
-/openspec/
-
 # Зависимости и сборка (когда появится code/)
 node_modules/
 dist/
